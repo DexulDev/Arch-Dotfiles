@@ -1,0 +1,126 @@
+# Cachés y datos locales
+.cache/
+.local/
+.local/share/nvim/
+
+# Configuración y caché de apps específicas
+.config/discord/
+.config/google-chrome/
+.config/BraveSoftware/
+.config/Code/
+.config/VSCodium/
+.config/Code - OSS/
+.config/spotify/
+.config/obs-studio/
+.config/discord_voice.node
+
+
+# Carpetas específicas a ignorar
+spotify/
+obs/
+
+# Telemetría y archivos de Go
+*.trace
+*.log
+.config/go/telemetry/
+
+# Archivos binarios y librerías
+*.node
+*.so
+*.dll
+*.exe
+
+# Logs y archivos temporales
+*.log
+*.tmp
+*.temp
+*.swp
+*.bak
+.*.swp
+.*.swo
+.*.un~
+
+# Archivos de configuración con secretos o credenciales
+*.key
+*.pem
+*.crt
+*.env
+*.secret
+
+# Bases de datos, sesiones, cookies y cachés locales
+*.sqlite
+*.db
+*.session
+*.cache
+
+# Archivos que pueden contener tokens o contraseñas
+*.token
+*.pass
+*.pwd
+
+# Archivos personales y configuración general
+.bash_history
+.bash_logout
+.bash_profile
+.bashrc
+.git-credentials
+.gitconfig
+.vscode/
+.vscode-oss/
+.ssh/
+.npm/
+.nuget/
+.mozilla/
+.yay/
+
+# Imágenes y videos personales
+*.mkv
+*.jpg
+*.png
+
+# Otros archivos o carpetas que no quieres versionar
+.console-ninja/
+.dotnet/
+.fzf-tab-completion/
+.gnupg/
+.gtkrc-2.0
+.ml4w-hyprland/
+.ml4w/
+.local/
+.mozilla/
+.poshthemes/
+.rustup/
+.pki/
+.var/
+.viminfo
+.wget-hsts
+.zshrc
+
+# Archivos específicos personales que no quieres subir
+2025-06-02 02-25-57.mkv
+2025-06-02 02-28-20.mkv
+Descargas/
+Documentos/
+dotfiles/
+gitignore
+screenshot_02062025_135453.jpg
+screenshot_02062025_140132.jpg
+screenshot_02062025_140140.jpg
+wallpaper/
+yay/
+~/
+
+# Archivos de autenticación y cookies
+.config/pulse/cookie
+.config/github-copilot/
+.config/copyq/
+.config/dconf/user
+
+# Historiales que pueden contener información sensible
+.config/nushell/history.txt
+.config/*/history*
+*history*
+
+# Configuraciones que pueden contener credenciales
+.config/*/config
+.config/*/settings*
