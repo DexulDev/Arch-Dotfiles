@@ -1,4 +1,4 @@
-// Vencord 0ce7772
+// Vencord bb106b7
 // Standalone: true
 // Platform: Universal
 // Updater Disabled: false
